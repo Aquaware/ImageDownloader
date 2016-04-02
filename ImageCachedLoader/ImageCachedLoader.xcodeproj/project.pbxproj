@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE90E503159AA531000C2FA4 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90E4F4159AA531000C2FA4 /* ImageCache.m */; };
+		FE90E504159AA531000C2FA4 /* ImageCacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90E4F6159AA531000C2FA4 /* ImageCacheController.m */; };
+		FE90E505159AA531000C2FA4 /* HTTPAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90E4F9159AA531000C2FA4 /* HTTPAsync.m */; };
+		FE90E506159AA531000C2FA4 /* HTTPAsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90E4FB159AA531000C2FA4 /* HTTPAsyncOperation.m */; };
+		FE90E507159AA531000C2FA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE90E4FD159AA531000C2FA4 /* InfoPlist.strings */; };
+		FE90E508159AA531000C2FA4 /* ImageCachedLoader-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE90E500159AA531000C2FA4 /* ImageCachedLoader-Info.plist */; };
+		FE90E509159AA531000C2FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90E502159AA531000C2FA4 /* main.m */; };
+		FE90E50C159AA6DC000C2FA4 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90E50B159AA6DC000C2FA4 /* ImageViewController.m */; };
+		FE920B2F159821E800BB2AC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE920B2E159821E800BB2AC5 /* UIKit.framework */; };
+		FE920B31159821E800BB2AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE920B30159821E800BB2AC5 /* Foundation.framework */; };
+		FE920B33159821E800BB2AC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE920B32159821E800BB2AC5 /* CoreGraphics.framework */; };
+		FE920B3F159821E800BB2AC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE920B3E159821E800BB2AC5 /* AppDelegate.m */; };
+		FE93DDDE159C606C00B6BE6A /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = FE93DDDD159C606C00B6BE6A /* loading.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE90E4F3159AA531000C2FA4 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		FE90E4F4159AA531000C2FA4 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		FE90E4F5159AA531000C2FA4 /* ImageCacheController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCacheController.h; sourceTree = "<group>"; };
+		FE90E4F6159AA531000C2FA4 /* ImageCacheController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCacheController.m; sourceTree = "<group>"; };
+		FE90E4F8159AA531000C2FA4 /* HTTPAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsync.h; sourceTree = "<group>"; };
+		FE90E4F9159AA531000C2FA4 /* HTTPAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsync.m; sourceTree = "<group>"; };
+		FE90E4FA159AA531000C2FA4 /* HTTPAsyncOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncOperation.h; sourceTree = "<group>"; };
+		FE90E4FB159AA531000C2FA4 /* HTTPAsyncOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncOperation.m; sourceTree = "<group>"; };
+		FE90E4FE159AA531000C2FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE90E500159AA531000C2FA4 /* ImageCachedLoader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ImageCachedLoader-Info.plist"; sourceTree = "<group>"; };
+		FE90E501159AA531000C2FA4 /* ImageCachedLoader-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ImageCachedLoader-Prefix.pch"; sourceTree = "<group>"; };
+		FE90E502159AA531000C2FA4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE90E50A159AA6DC000C2FA4 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ImageCachedLoader/ImageViewController.h; sourceTree = "<group>"; };
+		FE90E50B159AA6DC000C2FA4 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ImageCachedLoader/ImageViewController.m; sourceTree = "<group>"; };
+		FE920B2A159821E800BB2AC5 /* ImageCachedLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCachedLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE920B2E159821E800BB2AC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE920B30159821E800BB2AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE920B32159821E800BB2AC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE920B3D159821E800BB2AC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ImageCachedLoader/AppDelegate.h; sourceTree = "<group>"; };
+		FE920B3E159821E800BB2AC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ImageCachedLoader/AppDelegate.m; sourceTree = "<group>"; };
+		FE93DDDD159C606C00B6BE6A /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE920B27159821E800BB2AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE920B2F159821E800BB2AC5 /* UIKit.framework in Frameworks */,
+				FE920B31159821E800BB2AC5 /* Foundation.framework in Frameworks */,
+				FE920B33159821E800BB2AC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE90E4F2159AA531000C2FA4 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				FE90E4F3159AA531000C2FA4 /* ImageCache.h */,
+				FE90E4F4159AA531000C2FA4 /* ImageCache.m */,
+				FE90E4F5159AA531000C2FA4 /* ImageCacheController.h */,
+				FE90E4F6159AA531000C2FA4 /* ImageCacheController.m */,
+			);
+			name = Cache;
+			path = ImageCachedLoader/Cache;
+			sourceTree = "<group>";
+		};
+		FE90E4F7159AA531000C2FA4 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				FE90E4F8159AA531000C2FA4 /* HTTPAsync.h */,
+				FE90E4F9159AA531000C2FA4 /* HTTPAsync.m */,
+				FE90E4FA159AA531000C2FA4 /* HTTPAsyncOperation.h */,
+				FE90E4FB159AA531000C2FA4 /* HTTPAsyncOperation.m */,
+			);
+			name = Communication;
+			path = ImageCachedLoader/Communication;
+			sourceTree = "<group>";
+		};
+		FE90E4FC159AA531000C2FA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE93DDDD159C606C00B6BE6A /* loading.png */,
+				FE90E4FD159AA531000C2FA4 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			path = ImageCachedLoader/Resources;
+			sourceTree = "<group>";
+		};
+		FE90E4FF159AA531000C2FA4 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FE90E500159AA531000C2FA4 /* ImageCachedLoader-Info.plist */,
+				FE90E501159AA531000C2FA4 /* ImageCachedLoader-Prefix.pch */,
+				FE90E502159AA531000C2FA4 /* main.m */,
+			);
+			name = SupportFiles;
+			path = ImageCachedLoader/SupportFiles;
+			sourceTree = "<group>";
+		};
+		FE920B1F159821E800BB2AC5 = {
+			isa = PBXGroup;
+			children = (
+				FE920B3D159821E800BB2AC5 /* AppDelegate.h */,
+				FE920B3E159821E800BB2AC5 /* AppDelegate.m */,
+				FE90E50A159AA6DC000C2FA4 /* ImageViewController.h */,
+				FE90E50B159AA6DC000C2FA4 /* ImageViewController.m */,
+				FE90E4F2159AA531000C2FA4 /* Cache */,
+				FE90E4F7159AA531000C2FA4 /* Communication */,
+				FE90E4FC159AA531000C2FA4 /* Resources */,
+				FE90E4FF159AA531000C2FA4 /* SupportFiles */,
+				FE920B2D159821E800BB2AC5 /* Frameworks */,
+				FE920B2B159821E800BB2AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE920B2B159821E800BB2AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE920B2A159821E800BB2AC5 /* ImageCachedLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE920B2D159821E800BB2AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE920B2E159821E800BB2AC5 /* UIKit.framework */,
+				FE920B30159821E800BB2AC5 /* Foundation.framework */,
+				FE920B32159821E800BB2AC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE920B29159821E800BB2AC5 /* ImageCachedLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE920B42159821E800BB2AC5 /* Build configuration list for PBXNativeTarget "ImageCachedLoader" */;
+			buildPhases = (
+				FE920B26159821E800BB2AC5 /* Sources */,
+				FE920B27159821E800BB2AC5 /* Frameworks */,
+				FE920B28159821E800BB2AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCachedLoader;
+			productName = ImageCachedLoader;
+			productReference = FE920B2A159821E800BB2AC5 /* ImageCachedLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE920B21159821E800BB2AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "株式会社シーイーシー";
+			};
+			buildConfigurationList = FE920B24159821E800BB2AC5 /* Build configuration list for PBXProject "ImageCachedLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE920B1F159821E800BB2AC5;
+			productRefGroup = FE920B2B159821E800BB2AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE920B29159821E800BB2AC5 /* ImageCachedLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE920B28159821E800BB2AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE90E507159AA531000C2FA4 /* InfoPlist.strings in Resources */,
+				FE90E508159AA531000C2FA4 /* ImageCachedLoader-Info.plist in Resources */,
+				FE93DDDE159C606C00B6BE6A /* loading.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE920B26159821E800BB2AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE920B3F159821E800BB2AC5 /* AppDelegate.m in Sources */,
+				FE90E503159AA531000C2FA4 /* ImageCache.m in Sources */,
+				FE90E504159AA531000C2FA4 /* ImageCacheController.m in Sources */,
+				FE90E505159AA531000C2FA4 /* HTTPAsync.m in Sources */,
+				FE90E506159AA531000C2FA4 /* HTTPAsyncOperation.m in Sources */,
+				FE90E509159AA531000C2FA4 /* main.m in Sources */,
+				FE90E50C159AA6DC000C2FA4 /* ImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE90E4FD159AA531000C2FA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE90E4FE159AA531000C2FA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE920B40159821E800BB2AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE920B41159821E800BB2AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE920B43159821E800BB2AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCachedLoader/SupportFiles/ImageCachedLoader-Prefix.pch";
+				INFOPLIST_FILE = "ImageCachedLoader/SupportFiles/ImageCachedLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE920B44159821E800BB2AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCachedLoader/SupportFiles/ImageCachedLoader-Prefix.pch";
+				INFOPLIST_FILE = "ImageCachedLoader/SupportFiles/ImageCachedLoader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE920B24159821E800BB2AC5 /* Build configuration list for PBXProject "ImageCachedLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE920B40159821E800BB2AC5 /* Debug */,
+				FE920B41159821E800BB2AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE920B42159821E800BB2AC5 /* Build configuration list for PBXNativeTarget "ImageCachedLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE920B43159821E800BB2AC5 /* Debug */,
+				FE920B44159821E800BB2AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE920B21159821E800BB2AC5 /* Project object */;
+}
